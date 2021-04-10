@@ -1,4 +1,4 @@
-# Frontend Mentor - IP address tracker
+# Frontend Mentor - IP ADDRESS TRACKER
 
 ## Welcome! 👋
 
