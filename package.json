@@ -1,0 +1,21 @@
+{
+  "name": "ip-address-tracker",
+  "version": "1.0.0",
+  "description": "![Design preview for the IP address tracker coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rm -rf dist .cache",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --no-source-maps --no-cache"
+  },
+  "author": "Bimal Thapa Magar",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "gsap": "^3.6.1",
+    "leaflet": "^1.7.1"
+  }
+}

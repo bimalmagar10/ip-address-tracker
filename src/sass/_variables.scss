@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+$color-primary:hsl(0, 0%, 59%);
+$color-secondary: hsl(0, 0%, 17%);
+$color-tertiary:#EA2027;
+$color-tertiary-light:#EE5A24;
+$color-tertiary-very-light:#f5a183;
+$color-white:#fff;
+$default-font:"Rubik",sans-serif;
+$default-font-size:1.6rem;
+
+//MIXINS
+@mixin responsive($break-point) {
+	@if $break-point == tablet {
+		@media only screen and (max-width:56.25em){@content;}
+	}
+	@if $break-point == phone {
+		@media only screen and (max-width: 37.5em){@content;}
+	}
+	@if $break-point == sm-phone {
+		@media only screen and (max-width: 28.125em){@content;}
+	}
+}
